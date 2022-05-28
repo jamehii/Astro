@@ -1,0 +1,8 @@
+{
+    "astro.css.completions.emmet": true,
+    "astro.html.completions.emmet": true,
+    "emmet.includeLanguages": {
+        "astro": "html",
+        "markdown": "html"
+    }
+}

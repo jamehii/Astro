@@ -1,0 +1,10 @@
+---
+import Base from "./Base.astro"
+console.log(Astro.props)
+const { title } = Astro.props.content
+---
+
+<Base {title}>
+    <h1>Inside BasicPage.astro: {title}</h1>
+    <slot></slot>
+</Base>
